@@ -28,11 +28,12 @@ pip install -r requirements.txt
 
 ### Main Dependencies
 
-- numpy, pandas – for data handling
-- matplotlib, seaborn – for visualization
-- scikit-learn – for preprocessing and modeling
-- kagglehub – for downloading data from Kaggle
-- IPython – for notebook utilities
+- numpy, pandas for data manipulation
+- matplotlib, seaborn for visual exploration
+- scikit-learn for preprocessing and modeling
+- duckdb for fast local querying
+- kagglehub for dataset downloading
+- IPython for display utilities inside notebooks
 
 ## Running the Notebook
 
