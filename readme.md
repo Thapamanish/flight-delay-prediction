@@ -13,7 +13,7 @@ Although a small sample dataset is included for demonstration, the notebook prim
 
 ## Data Source
 
-The dataset is automatically pulled from Kaggle. To enable Kaggle access:
+The dataset is automatically pulled from Kaggle.
 
 ## Setup Instructions
 
@@ -45,18 +45,6 @@ pip install -r requirements.txt
 
 The notebook will automatically download the dataset from Kaggle. A small embedded dataset is available for quick testing if Kaggle is not configured.
 
-## Output
-
-Processed and scaled datasets are saved in the project directory, for example as `positive_scaled_flight_delays.csv`.
-
-If you see an error like:
-
-```
-OSError: Cannot save file into a non-existent directory
-```
-
-change the output path in the notebook to a valid local folder.
-
 ## Notes
 
 - `os`, `math`, and `datetime` are built-in Python modules and should not be listed in `requirements.txt`.
@@ -65,16 +53,10 @@ change the output path in the notebook to a valid local folder.
 
 ## License
 
-Add your preferred license here (e.g., MIT or Apache 2.0).
+This project is released under the MIT License.
+You are free to use, modify, and distribute the code with proper attribution.
 
 ## Acknowledgments
 
-- Kaggle for hosting the dataset
-- NumPy, Pandas, Matplotlib, Seaborn, scikit-learn, and KaggleHub communities
-  """
-
-path_plain = "/mnt/data/README_plain_flight_delay.md"
-with open(path_plain, "w", encoding="utf-8") as f:
-f.write(plain_readme)
-
-path_plain
+- Kaggle for providing the dataset
+- The NumPy, Pandas, Matplotlib, Seaborn, scikit-learn, DuckDB, and KaggleHub communities for their open-source tools
