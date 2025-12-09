@@ -1,0 +1,44 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Kaggle / data folders
+data/
+*.csv
+
+# DuckDB files
+*.duckdb
+*.ddb
+
+# VS Code settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Python packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
