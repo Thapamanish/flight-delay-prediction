@@ -19,7 +19,6 @@ ENV/
 .ipynb_checkpoints/
 
 # Kaggle / data folders
-data/
 *.csv
 
 # DuckDB files
